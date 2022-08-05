@@ -3,7 +3,7 @@ int main(){
 
 int nb, i, f = 1;
  
-  printf("faire entrer le nombre qu vou voulais calculer sa factorielle:\n");
+  printf("faire entrer le nombre que vous voulais calculer sa factorielle:\n");
   scanf("%d", &nb);
  if (nb == 0)
     {
@@ -18,9 +18,9 @@ int nb, i, f = 1;
     f = f * i;
  
   printf("la Factorielle de %d = %d\n", nb, f);
- 
+   }
   return 0;
-  }
+
 }
 
 
